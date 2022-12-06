@@ -115,7 +115,6 @@ body {
 .card figure .card-details h3 {
   font-weight: 400;
   font-size: 25px;
-  margin-bottom: 120px;
   transition: all 500ms ease-out;
   margin-top: 30px;
 }
@@ -271,6 +270,9 @@ body {
   .card .content .card__body h3 {
     font-size: 2rem;
     font-weight: 1000;
+    color: white;
+  }
+  .card .content .card__body p {
     color: white;
   }
   .card .content .card__body .card__text {
