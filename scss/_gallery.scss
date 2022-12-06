@@ -1,0 +1,66 @@
+@media (max-width: 768px) {
+  /** PAG GALLERY **/
+  .carousel__animals {
+    margin: 0 0 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    .animals {
+      background-color: #655d6b19;
+      margin: 1rem 1rem;
+      border-radius: 1rem;
+      padding: 0;
+      &:hover {
+        box-shadow: 0 0 20px 5px rgba(17, 17, 17, 0.466);
+        opacity: 0.8;
+      }
+      article {
+        margin: 1rem 2rem;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 1000;
+        color: aliceblue;
+      }
+      img {
+        margin: 0.5rem 0.5rem;
+        height: 20rem;
+        width: 15rem;
+        border-radius: 0.5rem;
+        color: white;
+      }
+    }
+  }
+}
+
+// Desktop
+
+@media (min-width: 768px) {
+  /**  Gallery **/
+
+  .carousel__animals {
+    margin: 5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    .animals {
+      img {
+        height: 20rem;
+        width: 15rem;
+        border-radius: 0.5rem;
+        margin: 1rem 2rem;
+        color: white;
+        &:hover {
+          box-shadow: 0 0 20px 5px rgba(17, 17, 17, 0.466);
+          opacity: 0.8;
+        }
+      }
+      article {
+        margin: 0 2rem;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 1000;
+        color: aliceblue;
+      }
+    }
+  }
+}

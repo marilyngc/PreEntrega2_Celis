@@ -1,0 +1,103 @@
+/*/ /////////////////////
+//////// NEWS //////////
+///////////////////////*/
+
+/*TOP CARDS*/
+
+.card figure {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+    visibility: visible;
+    .card-details {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+  img {
+    transition: all 300ms ease-out;
+  }
+
+  .card-details {
+    position: absolute;
+    top: 0;
+    background-color: rgba(183, 169, 156, 0.3);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    h3 {
+      font-weight: 400;
+      font-size: 25px;
+      margin-bottom: 120px;
+      transition: all 500ms ease-out;
+      margin-top: 30px;
+      &:hover {
+        margin-top: 170px;
+        margin-bottom: 25px;
+      }
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+  }
+}
+
+// Bottom Cards
+
+.cards {
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  transition: all 400ms ease;
+  &:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+  .contenido {
+    h3 {
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+    p {
+      line-height: 1.5;
+    }
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #7a00df;
+      border-radius: 4px;
+      transition: all 400ms ease;
+      color: white;
+      &:hover {
+        background: #7a00df;
+      }
+    }
+  }
+}
+
+/* ANOTACIONES BOTTOM CARDS
+  317 PX CADA CAJA
+  317 =19,8 REM 
+  1 PX DE SEPARACION ENTRE CAJAS
+  */
+
+/* btn-neon */
+
+.btn-action {
+  position: relative;
+  display: inline-block;
+  padding: 15px 30px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
