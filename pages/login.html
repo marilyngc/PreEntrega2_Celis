@@ -82,75 +82,61 @@
     </header>
     <main>
       <section>
-        <div class="container">
+        <div class="container mb-5">
           <div class="form">
-            <ul class="tab-group">
-              <li class="tab">Log In</li>
-            </ul>
-
-            <div class="tab-content">
-              <div id="signup">
-                <h1>Sign Up for Free</h1>
-
-                <form>
-                  <div class="top-row">
-                    <div class="field-wrap">
-                      <label for="firstName"> First Name* </label>
-                      <br />
-                      <input
-                        id="firstName"
-                        class="input"
-                        type="text"
-                        required
-                        autocomplete="off"
-                        placeholder="Ingrese su nombre" />
-                    </div>
-
-                    <div class="field-wrap">
-                      <label for="lastName"> Last Name* </label>
-                      <br />
-                      <input
-                        class="input"
-                        id="lastName"
-                        type="text"
-                        required
-                        autocomplete="off"
-                        placeholder="Ingrese su apellido" />
-                    </div>
-                  </div>
-
-                  <div class="top-col">
-                    <div class="field-wrap">
-                      <label for="email"> Email Address* </label>
-                      <input
-                        id="email"
-                        class="input input__col"
-                        type="email"
-                        required
-                        autocomplete="off"
-                        placeholder="Ingrese su email" />
-                    </div>
-
-                    <div class="field-wrap">
-                      <label for="password"> Set A Password* </label>
-                      <input
-                        id="password"
-                        class="input input__col"
-                        type="password"
-                        required
-                        autocomplete="off"
-                        placeholder="Ingrese contraseña" />
-                    </div>
-                  </div>
-                  <div class="box-botton">
-                    <button type="submit" class="button">Get Started</button>
-                  </div>
-                </form>
-              </div>
+            <div class="text-align-center text-light mt-4 mb-4" id="signup">
+              <h1>Sign Up for Free</h1>
             </div>
-            <!-- tab-content -->
+            <form action="">
+              <div class="row">
+                <div class="form-floating mb-3 col-6">
+                  <input
+                    type="text"
+                    required
+                    autocomplete="off"
+                    class="form-control"
+                    id="floatingFirtsName"
+                    placeholder="name@example.com" />
+                  <label for="floatingFirtsName">Firts Name</label>
+                </div>
+                <div class="form-floating col-6">
+                  <input
+                    type="text"
+                    required
+                    autocomplete="off"
+                    class="form-control"
+                    id="floatingLastName"
+                    placeholder="Password" />
+                  <label for="floatingLastName">Last Name</label>
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-floating mb-3">
+                  <input
+                    type="email"
+                    required
+                    autocomplete="off"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com" />
+                  <label for="floatingInput">Email address</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input
+                    type="password"
+                    required
+                    autocomplete="off"
+                    class="form-control"
+                    id="floatingPassword"
+                    placeholder="Password" />
+                  <label for="floatingPassword">Password</label>
+                </div>
+              </div>
+              <div class="box-botton">
+                <button type="submit" class="button">Get Started</button>
+              </div>
+            </form>
           </div>
-          <!-- /form -->
         </div>
       </section>
     </main>
