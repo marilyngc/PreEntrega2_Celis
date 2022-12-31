@@ -7,3 +7,8 @@ body {
   background-color: $backgroundColor;
   font-family: $font-family-base;
 }
+.font-text {
+  letter-spacing: -0.05em;
+  font-family: $tittleH1;
+  color: white;
+}

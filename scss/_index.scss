@@ -1,9 +1,38 @@
-.font-text {
-  letter-spacing: -0.05em;
-  font-family: $tittleH1;
-  color: white;
+.position-relative-make {
+  position: relative;
+  .position {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 50rem;
+
+    .font-text {
+      letter-spacing: -0.05em;
+      font-family: $tittleH1;
+      color: white;
+    }
+  }
 }
 
+///// MOBILE ///
+@media (max-width: 768px) {
+  .position-relative-make {
+    position: relative;
+
+    .position {
+      position: absolute;
+      top: 30%;
+      left: 5%;
+      width: 23rem;
+
+      .font-text {
+        letter-spacing: -0.05em;
+        font-family: $tittleH1;
+        color: white;
+      }
+    }
+  }
+}
 .color-text {
   color: $colorViolet;
   font-size: 2rem;

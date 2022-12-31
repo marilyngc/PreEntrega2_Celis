@@ -9,6 +9,12 @@ body {
   font-family: "montserrat";
 }
 
+.font-text {
+  letter-spacing: -0.05em;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
 .navbar {
   background-color: #1d1d1f;
 }
@@ -59,12 +65,37 @@ body {
   transform: translateX(0%);
 }
 
-.font-text {
+.position-relative-make {
+  position: relative;
+}
+.position-relative-make .position {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 50rem;
+}
+.position-relative-make .position .font-text {
   letter-spacing: -0.05em;
   font-family: "Josefin Sans", sans-serif;
   color: white;
 }
 
+@media (max-width: 768px) {
+  .position-relative-make {
+    position: relative;
+  }
+  .position-relative-make .position {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 23rem;
+  }
+  .position-relative-make .position .font-text {
+    letter-spacing: -0.05em;
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+  }
+}
 .color-text {
   color: #a284ed;
   font-size: 2rem;
